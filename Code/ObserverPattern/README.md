@@ -3,15 +3,6 @@
 This is an example project that implements the Observer Pattern of OO design in C++.
 
 In this project, the observers are allowed to *pull* data from the subject/publisher.
-## Compile and Build
-```bash
-source ./install.sh
-```
-
-## Run
-```bash
-source ./run.sh
-```
 
 ## Class Diagram
 ```mermaid
