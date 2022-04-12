@@ -17,8 +17,8 @@ Duck <|-- RedheadDuck
 Duck <|-- RubberDuck
 Duck <|-- DecoyDuck
 
-Duck --* FlyBehavior
-Duck --* QuackBehavior
+Duck --> FlyBehavior
+Duck --> QuackBehavior
 
 class Duck {
   +FlyBehavior fb
@@ -44,7 +44,8 @@ class DecoyDuck {
 }
 
 class FlyBehavior {
-  <<interface>>  
+  <<interface>>
+  +fly()
 }
 class FlyWithWings {
   +fly()
@@ -52,11 +53,12 @@ class FlyWithWings {
 class FlyNoWay {
   +fly()
 }
-FlyBehavior <|.. FlyWithWings
-FlyBehavior <|.. FlyNoWay
+FlyBehavior <|.. "implements" FlyWithWings
+FlyBehavior <|.. "implements" FlyNoWay
 
 class QuackBehavior {
   <<interface>>
+  +quack()
 }
 class Quack {
   +quack()
@@ -68,8 +70,8 @@ class MuteQuack {
   +quack()
 }
 
-QuackBehavior <|.. Quack
-QuackBehavior <|.. Squeak
-QuackBehavior <|.. MuteQuack
+QuackBehavior <|.. "implements" Quack
+QuackBehavior <|.. "implements" Squeak
+QuackBehavior <|.. "implements" MuteQuack
 
 ```
