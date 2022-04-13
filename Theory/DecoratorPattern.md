@@ -62,3 +62,18 @@ Decorator <|-- ConcreteDecoratorB
 
 ## Decorating a coffee
 
+Imagine you are Starbucks and you order:
+
+*an iced, Ristretto, 10 shot, venti, with breve, 5 pump vanilla, 7 pump caramel, 4 Splenda, [and] poured, not shaken*
+
+You deserve to be dragged out from the shop.
+
+For this example, we will consider a simpler order
+
+*double mocha triple steamed milk espresso*
+
+(idk if this is even a thing but anyway)
+
+The cost will be calculated in this way:
+
+![Decorating Coffee](./public/DecoratingCoffee.png)
