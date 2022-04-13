@@ -9,6 +9,7 @@ class Subject;
 */
 class Observer {
 public:
+    virtual ~Observer() {}
     /**
      * Update data in the observer
     */

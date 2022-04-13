@@ -14,6 +14,10 @@ class QuackBehavior;
 class Duck {
 public:
     /**
+     * Duck virtual destructor
+    */
+    virtual ~Duck() {};
+    /**
      * Duck constructor
     */
     Duck();

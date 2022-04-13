@@ -9,6 +9,7 @@ class Observer;
 */
 class Subject {
 public:
+    virtual ~Subject() {}
     /**
      * Register an observer
      * @param observer object that needs to be registered

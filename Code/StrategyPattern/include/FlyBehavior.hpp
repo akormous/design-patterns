@@ -7,6 +7,7 @@
 */
 class FlyBehavior {
 public:
+    virtual ~FlyBehavior() {}
     /**
      * way of flying
     */

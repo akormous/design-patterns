@@ -8,7 +8,7 @@
 */
 class QuackBehavior {
 public:
-
+    virtual ~QuackBehavior() {}
     /**
      * the sound of duck
     */
