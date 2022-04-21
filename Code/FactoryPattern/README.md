@@ -6,8 +6,18 @@
 classDiagram
 
 class Pizza {
-    +prepare()
-    +// other methods()
+    +string name
+    +Dough* dough
+    +Cheese* cheese
+    +Clams* clams;
+    +Sauce* sauce
+    +abstract void prepare()
+    +bake()
+    +cut()
+    +box()
+    +setName()
+    +getName()
+    +getPizzaDescription()
 }
 
 class PizzaStore {
@@ -27,6 +37,43 @@ class ChicagoPizzaStore {
 
 PizzaStore <|-- NYPizzaStore
 PizzaStore <|-- ChicagoPizzaStore
+```
+
+## Types of Pizza
+Name of the pizzas is same across all regions, but the ingredients differ.
+
+```mermaid
+classDiagram
+
+class Pizza {
+    +string name
+    +Dough* dough
+    +Cheese* cheese
+    +Clams* clams;
+    +Sauce* sauce
+    +abstract void prepare()
+    +bake()
+    +cut()
+    +box()
+    +setName()
+    +getName()
+    +getPizzaDescription()
+}
+
+class CheesePizza {
+    +PizzaIngredientFactory* ingredientFactory
+    +void prepare()
+    +CheesePizza()
+}
+
+class ClamsPizza {
+    +PizzaIngredientFactory* ingredientFactory
+    +void prepare()
+    +ClamsPizza()
+}
+
+Pizza <|.. CheesePizza
+Pizza <|.. ClamsPizza
 ```
 
 ## Pizza Ingredients - Abstract Factory
