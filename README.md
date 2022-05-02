@@ -19,9 +19,24 @@ source run.sh
 
 ## Index
 
+### Creational patterns
+|Theory|Code|
+|-|-|
+|[Factory Pattern](./Theory/FactoryPattern.md)|[Domino's Pizza](./Code/FactoryPattern)|
+
+---
+
+### Structural patterns
+|Theory|Code|
+|-|-|
+|[Decorator Pattern](./Theory/DecoratorPattern.md)|[Starbucks Coffee](./Code/DecoratorPattern)|
+
+---
+
+### Behavioral patterns
 |Theory|Code|
 |-|-|
 |[Strategy Pattern](./Theory/StrategyPattern.md)|[Duck Simulator](./Code/StrategyPattern/)|
 |[Observer Pattern](./Theory/ObserverPattern.md)|[Weather Station](./Code/ObserverPattern)|
-|[Decorator Pattern](./Theory/DecoratorPattern.md)|[Starbucks Coffee](./Code/DecoratorPattern)|
-|[Factory Pattern](./Theory/FactoryPattern.md)|[Domino's Pizza](./Code/FactoryPattern)|
+
+---
