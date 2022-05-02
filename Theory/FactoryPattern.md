@@ -9,7 +9,7 @@ The Factory Method Pattern defines an interface for creating an object, but lets
 
 This pattern gives us a way to encapsulate the instantiations of concrete types. A general class diasgram is given below:
 
-- The Creator is a class that contains the implmentations for all of the methods to manipulate products, except for the **factory method**
+- The Creator is a class that contains the implementations for all of the methods to manipulate products, except for the **factory method**
 - All products must implement the same interface so that the classes which use the products can refer to the interface, not the concrete class
 - The abstract **factoryMethod()** is what all Creator subclasses must implement
 - The ConcreteCreator implements the **factoryMethod()**, which is the method that actually produces products
