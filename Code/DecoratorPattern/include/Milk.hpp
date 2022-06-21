@@ -1,5 +1,4 @@
-#ifndef MILK_HPP
-#define MILK_HPP
+#pragma once
 
 #include "CondimentDecorator.hpp"
 
@@ -12,5 +11,3 @@ public:
 private:
     Beverage* beverage;
 };
-
-#endif // MILK_HPP

@@ -1,5 +1,4 @@
-#ifndef DOUGH_HPP
-#define DOUGH_HPP
+#pragma once
 
 #include <string>
 
@@ -16,5 +15,3 @@ public:
      */
     virtual std::string getDescription() = 0;
 };
-
-#endif // DOUGH_HPP

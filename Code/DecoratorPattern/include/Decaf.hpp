@@ -1,5 +1,4 @@
-#ifndef DECAF_HPP
-#define DECAF_HPP
+#pragma once
 
 #include "Beverage.hpp"
 
@@ -9,5 +8,3 @@ public:
     double cost();
 private:
 };
-
-#endif // DECAF_HPP

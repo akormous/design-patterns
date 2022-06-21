@@ -1,5 +1,4 @@
-#ifndef NY_PIZZA_INGREDIENT_FACTORY_HPP
-#define NY_PIZZA_INGREDIENT_FACTORY_HPP
+#pragma once
 
 #include "IngredientFactory/PizzaIngredientFactory.hpp"
 #include "Ingredients/Dough/ThinCrustDough.hpp"
@@ -17,5 +16,3 @@ public:
 
     Clams* createClams();
 };
-
-#endif // NY_PIZZA_INGREDIENT_FACTORY_HPP

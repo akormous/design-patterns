@@ -1,5 +1,4 @@
-#ifndef DARK_ROAST_HPP
-#define DARK_ROAST_HPP
+#pragma once
 
 #include "Beverage.hpp"
 
@@ -9,5 +8,3 @@ public:
     double cost();
 private:
 };
-
-#endif // DARK_ROAST_HPP

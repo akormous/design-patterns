@@ -1,5 +1,4 @@
-#ifndef CHOCOLATE_BOILER
-#define CHOCOLATE_BOILER
+#pragma once
 
 #include<memory>
 #include<mutex>
@@ -38,5 +37,3 @@ public:
     ~ChocolateBoiler() = default;
 
 };
-
-#endif // CHOCOLATE_BOILER

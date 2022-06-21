@@ -1,5 +1,4 @@
-#ifndef PIZZA_HPP
-#define PIZZA_HPP
+#pragma once
 
 #include "Ingredients/Dough/Dough.hpp"
 #include "Ingredients/Sauce/Sauce.hpp"
@@ -28,5 +27,3 @@ protected:
     Cheese* cheese;
 
 };
-
-#endif // PIZZA_HPP

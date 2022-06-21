@@ -1,5 +1,4 @@
-#ifndef FROZEN_CLAMS_HPP
-#define FROZEN_CLAMS_HPP
+#pragma once
 
 #include "Clams.hpp"
 
@@ -7,5 +6,3 @@ class FrozenClams : public Clams {
 public:
     std::string getDescription();
 };
-
-#endif // FROZEN_CLAMS_HPP

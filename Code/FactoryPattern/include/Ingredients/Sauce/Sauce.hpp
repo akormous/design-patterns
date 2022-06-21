@@ -1,5 +1,4 @@
-#ifndef SAUCE_HPP
-#define SAUCE_HPP
+#pragma once
 
 #include <string>
 
@@ -16,5 +15,3 @@ public:
      */
     virtual std::string getDescription() = 0;
 };
-
-#endif // SAUCE_HPP

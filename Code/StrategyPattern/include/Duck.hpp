@@ -1,5 +1,4 @@
-#ifndef DUCK_HPP
-#define DUCK_HPP
+#pragma once
 
 #include "FlyBehavior.hpp"
 #include "QuackBehavior.hpp"
@@ -55,5 +54,3 @@ private:
     FlyBehavior* flyBehavior;
     QuackBehavior* quackBehavior;
 };
-
-#endif // DUCK_HPP
