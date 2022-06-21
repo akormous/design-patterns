@@ -1,5 +1,4 @@
-#ifndef PLUM_TOMATO_SAUCE_CPP
-#define PLUM_TOMATO_SAUCE_CPP
+#pragma once
 
 #include "Sauce.hpp"
 
@@ -7,5 +6,3 @@ class PlumTomatoSauce : public Sauce {
 public:
     std::string getDescription();
 };
-
-#endif // PLUM_TOMATO_SAUCE_CPP

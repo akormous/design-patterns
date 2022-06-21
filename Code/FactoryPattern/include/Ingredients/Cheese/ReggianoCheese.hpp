@@ -1,5 +1,4 @@
-#ifndef REGGIANO_CHEESE_HPP
-#define REGGIANO_CHEESE_HPP
+#pragma once
 
 #include "Cheese.hpp"
 
@@ -7,5 +6,3 @@ class ReggianoCheese : public Cheese {
 public:
     std::string getDescription();
 };
-
-#endif // REGGIANO_CHEESE_HPP

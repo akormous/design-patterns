@@ -1,5 +1,4 @@
-#ifndef DISPLAY_INTERFACE_HPP
-#define DISPLAY_INTERFACE_HPP
+#pragma once
 
 /**
  * Interface for Display
@@ -13,5 +12,3 @@ public:
     */
     virtual void display() = 0;
 };
-
-#endif // DISPLAY_INTERFACE_HPP

@@ -1,5 +1,4 @@
-#ifndef HOUSE_BLEND_HPP
-#define HOUSE_BLEND_HPP
+#pragma once
 
 #include "Beverage.hpp"
 
@@ -9,5 +8,3 @@ public:
     double cost();
 private:
 };
-
-#endif // HOUSE_BLEND_HPP

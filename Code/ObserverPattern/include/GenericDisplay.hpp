@@ -1,5 +1,4 @@
-#ifndef GENERIC_DISPLAY_HPP
-#define GENERIC_DISPLAY_HPP
+#pragma once
 
 #include "Display.hpp"
 #include "Observer.hpp"
@@ -19,5 +18,3 @@ private:
     float temp;
     float humidity;
 };
-
-#endif // GENERIC_DISPLAY_HPP

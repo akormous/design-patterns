@@ -1,5 +1,4 @@
-#ifndef WEATHER_STATION_HPP
-#define WEATHER_STATION_HPP
+#pragma once
 
 #include <vector>
 #include <algorithm>
@@ -38,5 +37,3 @@ private:
     float humidity;
     float pressure;
 };
-
-#endif // WEATHER_STATION_HPP

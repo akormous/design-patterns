@@ -1,5 +1,4 @@
-#ifndef CHEESE_HPP
-#define CHEESE_HPP
+#pragma once
 
 #include <string>
 
@@ -16,5 +15,3 @@ public:
      */
     virtual std::string getDescription() = 0;
 };
-
-#endif // CHEESE_HPP

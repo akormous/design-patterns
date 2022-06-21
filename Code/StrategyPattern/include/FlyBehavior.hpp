@@ -1,5 +1,4 @@
-#ifndef FLY_BEHAVIOR_HPP
-#define FLY_BEHAVIOR_HPP
+#pragma once
 
 #include<iostream>
 /**
@@ -13,5 +12,3 @@ public:
     */
     virtual void fly() = 0;
 };
-
-#endif // FLY_BEHAVIOR_HPP

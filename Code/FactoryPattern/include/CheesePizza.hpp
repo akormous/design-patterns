@@ -1,5 +1,4 @@
-#ifndef CHEESE_PIZZA_HPP
-#define CHEESE_PIZZA_HPP
+#pragma once
 
 #include "Pizza.hpp"
 #include "IngredientFactory/PizzaIngredientFactory.hpp"
@@ -11,5 +10,3 @@ public:
 private:
     PizzaIngredientFactory* ingredientFactory;
 };
-
-#endif // CHEESE_PIZZA_HPP

@@ -1,5 +1,4 @@
-#ifndef PIZZA_STORE_HPP
-#define PIZZA_STORE_HPP
+#pragma once
 
 #include "Pizza.hpp"
 #include "IngredientFactory/PizzaIngredientFactory.hpp"
@@ -13,5 +12,3 @@ public:
     Pizza* orderPizza(std::string type);
 
 };
-
-#endif // PIZZA_STORE_HPP

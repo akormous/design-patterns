@@ -1,5 +1,4 @@
-#ifndef OBSERVER_INTERFACE_HPP
-#define OBSERVER_INTERFACE_HPP
+#pragma once
 
 #include "Subject.hpp"
 
@@ -15,5 +14,3 @@ public:
     */
     virtual void update(Subject* subject) = 0;
 };
-
-#endif  // OBSERVER_INTERFACE_HPP

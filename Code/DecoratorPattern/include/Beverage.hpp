@@ -1,5 +1,4 @@
-#ifndef BEVERAGE_HPP
-#define BEVERAGE_HPP
+#pragma once
 
 #include<string>
 /**
@@ -19,5 +18,3 @@ public:
 
     std::string description = "";
 };
-
-#endif // BEVERAGE_HPP

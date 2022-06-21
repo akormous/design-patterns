@@ -1,5 +1,4 @@
-#ifndef WHIP_HPP
-#define WHIP_HPP
+#pragma once
 
 #include "CondimentDecorator.hpp"
 
@@ -12,5 +11,3 @@ public:
 private:
     Beverage* beverage;
 };
-
-#endif // WHIP_HPP

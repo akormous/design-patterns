@@ -1,5 +1,4 @@
-#ifndef MOZZARELLA_CHEESE_HPP
-#define MOZZARELLA_CHEESE_HPP
+#pragma once
 
 #include "Cheese.hpp"
 
@@ -7,5 +6,3 @@ class MozzarellaCheese : public Cheese {
 public:
     std::string getDescription();
 };
-
-#endif // MOZZARELLA_CHEESE_HPP

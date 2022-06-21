@@ -1,5 +1,4 @@
-#ifndef SOY_HPP
-#define SOY_HPP
+#pragma once
 
 #include "CondimentDecorator.hpp"
 
@@ -12,5 +11,3 @@ public:
 private:
     Beverage* beverage;
 };
-
-#endif // Soy_HPP

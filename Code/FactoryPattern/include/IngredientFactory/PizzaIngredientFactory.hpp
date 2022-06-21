@@ -8,8 +8,7 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#ifndef PIZZA_INGREDIENT_FACTORY_HPP
-#define PIZZA_INGREDIENT_FACTORY_HPP
+#pragma once
 
 #include "Ingredients/Cheese/Cheese.hpp"
 #include "Ingredients/Dough/Dough.hpp"
@@ -55,5 +54,3 @@ public:
     virtual Clams* createClams() = 0;
 
 };
-
-#endif

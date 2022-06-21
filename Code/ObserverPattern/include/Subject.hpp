@@ -1,5 +1,4 @@
-#ifndef SUBJECT_INTERFACE_HPP
-#define SUBJECT_INTERFACE_HPP
+#pragma once
 
 #include "Observer.hpp"
 
@@ -27,5 +26,3 @@ public:
     */
     virtual void notify() = 0;
 };
-
-#endif  // SUBJECT_INTERFACE_HPP

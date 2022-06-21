@@ -1,5 +1,4 @@
-#ifndef THIN_CRUST_DOUGH_HPP
-#define THIN_CRUST_DOUGH_HPP
+#pragma once
 
 #include "Dough.hpp"
 
@@ -7,5 +6,3 @@ class ThinCrustDough : public Dough {
 public:
     std::string getDescription();
 };
-
-#endif // THIN_CRUST_DOUGH_HPP

@@ -1,5 +1,4 @@
-#ifndef CHICAGO_PIZZA_INGREDIENT_FACTORY_HPP
-#define CHICAGO_PIZZA_INGREDIENT_FACTORY_HPP
+#pragma once
 
 #include "IngredientFactory/PizzaIngredientFactory.hpp"
 #include "Ingredients/Dough/ThickCrustDough.hpp"
@@ -18,5 +17,3 @@ public:
 
     Clams* createClams();
 };
-
-#endif // CHICAGO_PIZZA_INGREDIENT_FACTORY_HPP

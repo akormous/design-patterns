@@ -1,5 +1,4 @@
-#ifndef QUACK_BEHAVIOR_HPP
-#define QUACK_BEHAVIOR_HPP
+#pragma once
 
 #include<iostream>
 
@@ -14,5 +13,3 @@ public:
     */
     virtual void quack() = 0;
 };
-
-#endif // QUACK_BEHAVIOR_HPP

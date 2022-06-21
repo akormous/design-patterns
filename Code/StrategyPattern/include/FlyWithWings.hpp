@@ -1,5 +1,4 @@
-#ifndef FLY_WITH_WINGS_HPP
-#define FLY_WITH_WINGS_HPP
+#pragma once
 
 #include "FlyBehavior.hpp"
 
@@ -7,5 +6,3 @@ class FlyWithWings : public FlyBehavior {
 public:
     void fly() override;
 };
-
-#endif // FLY_WITH_WINGS_HPP
