@@ -7,6 +7,7 @@ public:
      * 
     */
     virtual void execute() {};
+    virtual void undo() {};
     
     virtual ~Command() {}
     std::string description;

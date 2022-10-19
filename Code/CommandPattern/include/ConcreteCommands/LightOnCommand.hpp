@@ -11,6 +11,9 @@ public:
     void execute() {
         light->on();
     }
+    void undo() {
+        light->off();
+    }
 
 private:
     Light* light;

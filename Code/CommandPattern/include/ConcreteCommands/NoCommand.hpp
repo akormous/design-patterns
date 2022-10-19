@@ -10,4 +10,7 @@ public:
     void execute() {
         // do nothing
     }
+    void undo() {
+        // do nothing nothing
+    }
 };
