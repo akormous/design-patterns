@@ -35,7 +35,11 @@ public:
      * @param slot slot number of the button
      */
     void offButtonWasPushed(int slot);
-
+    /**
+     * @brief method called when undo button is pushed
+     * 
+     */
+    void undoButtonWasPushed();
     /**
      * @brief display the menu and the button options
      * 
@@ -44,4 +48,5 @@ public:
 private:
     std::vector<Command*> onCommands;
     std::vector<Command*> offCommands;
+    Command* undoCommand;
 };

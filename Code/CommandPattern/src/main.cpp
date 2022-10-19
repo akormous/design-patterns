@@ -35,9 +35,10 @@ int main() {
     cout << endl;
     myRemote->onButtonWasPushed(0);
     myRemote->onButtonWasPushed(1);
+    myRemote->undoButtonWasPushed();
     myRemote->offButtonWasPushed(0);
     myRemote->offButtonWasPushed(1);
-
+    myRemote->undoButtonWasPushed();
     delete(myRemote);
     return 0;
 }

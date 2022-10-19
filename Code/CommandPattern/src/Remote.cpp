@@ -4,6 +4,7 @@ Remote::Remote(int n) {
     NoCommand* noCommand = new NoCommand();
     onCommands.resize(n, noCommand);
     offCommands.resize(n, noCommand);
+    undoCommand = noCommand;
 }
 
 void Remote::setCommand(int slot, Command* onCommand, Command* offCommand) {
@@ -13,10 +14,16 @@ void Remote::setCommand(int slot, Command* onCommand, Command* offCommand) {
 
 void Remote::onButtonWasPushed(int slot) {
     onCommands[slot]->execute();
+    undoCommand = onCommands[slot];
 }
 
 void Remote::offButtonWasPushed(int slot) {
     offCommands[slot]->execute();
+    undoCommand = offCommands[slot];
+}
+
+void Remote::undoButtonWasPushed() {
+    undoCommand->undo();
 }
 
 void Remote::displayMenu() {

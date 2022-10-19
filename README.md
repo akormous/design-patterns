@@ -20,13 +20,18 @@ source run.sh
 ## Index
 
 ### Creational patterns
+These patterns provide object creation mechanisms, which increase flexibility and reuse of existing code.
+
 |Theory|Code|
 |-|-|
 |[Factory Pattern](./Theory/FactoryPattern.md)|[Domino's Pizza](./Code/FactoryPattern)|
+|[Singleton Pattern](./Theory/SingletonPattern.md)|[Chocolate Factory](./Code/SingletonPattern)|
 
 ---
 
 ### Structural patterns
+These patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
+
 |Theory|Code|
 |-|-|
 |[Decorator Pattern](./Theory/DecoratorPattern.md)|[Starbucks Coffee](./Code/DecoratorPattern)|
@@ -34,9 +39,12 @@ source run.sh
 ---
 
 ### Behavioral patterns
+These patterns are concerned with algorithms and the assignment of responsibilities between objects.
+
 |Theory|Code|
 |-|-|
 |[Strategy Pattern](./Theory/StrategyPattern.md)|[Duck Simulator](./Code/StrategyPattern/)|
 |[Observer Pattern](./Theory/ObserverPattern.md)|[Weather Station](./Code/ObserverPattern)|
+|[Command Pattern](./Theory/CommandPattern.md)|[Remote Control](./Code/CommandPattern)|
 
 ---

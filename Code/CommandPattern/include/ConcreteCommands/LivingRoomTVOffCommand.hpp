@@ -12,6 +12,9 @@ public:
     void execute() {
         tv->off();
     }
+    void undo() {
+        tv->on();
+    }
 private:
     LivingRoomTV* tv;
 };
