@@ -35,6 +35,8 @@ These patterns explain how to assemble objects and classes into larger structure
 |Theory|Code|
 |-|-|
 |[Decorator Pattern](./Theory/DecoratorPattern.md)|[Starbucks Coffee](./Code/DecoratorPattern)|
+|[Adapter Pattern](./Theory/AdapterPattern.md)|[Turkey and Duck](./Code/AdapterPattern)|
+|[Facade Pattern](./Theory/FacadePattern.md)|-|
 
 ---
 
