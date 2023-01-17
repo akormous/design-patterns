@@ -16,6 +16,7 @@ For example, in the below diagram, the behavior classes (FlyBehavior and QuackBe
 ```mermaid
 classDiagram
 
+
 Duck <|-- MallardDuck 
 Duck <|-- RedheadDuck
 Duck <|-- RubberDuck
