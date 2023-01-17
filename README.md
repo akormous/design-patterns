@@ -1,4 +1,6 @@
-# Design Patterns
+![Design Patterns](./Theory/public/design-patterns.png)
+
+---
 
 A collection of C++ projects implementing various object-oriented design patterns.
 
@@ -48,5 +50,7 @@ These patterns are concerned with algorithms and the assignment of responsibilit
 |[Strategy Pattern](./Theory/StrategyPattern.md)|[Duck Simulator](./Code/StrategyPattern/)|
 |[Observer Pattern](./Theory/ObserverPattern.md)|[Weather Station](./Code/ObserverPattern)|
 |[Command Pattern](./Theory/CommandPattern.md)|[Remote Control](./Code/CommandPattern)|
+|[Iterator Pattern](./Theory/IteratorPattern.md)|[Pancake and Diner Menu](./Code/IteratorPattern)|
+|[Template Pattern](./Theory/TemplatePattern.md)|[Coffee and Tea](./Code/TemplatePattern)|
 
 ---
