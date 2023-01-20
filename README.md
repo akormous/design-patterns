@@ -5,12 +5,12 @@
 A collection of C++ projects implementing various object-oriented design patterns.
 
 ## How to run a project?
-Go to the projects directory (i.e. ObserverPattern)
+Go to the projects directory (i.e. ./Code/ObserverPattern)
 - `install.sh` : compile and build
 - `run.sh` : run the binary
 ### Compile and Build
 ```bash
-cd ObserverPattern
+cd ./Code/ObserverPattern
 source install.sh
 ```
 
@@ -54,5 +54,6 @@ These patterns are concerned with algorithms and the assignment of responsibilit
 |[Command Pattern](./Theory/CommandPattern.md)|[Remote Control](./Code/CommandPattern)|
 |[Iterator Pattern](./Theory/IteratorPattern.md)|[Pancake and Diner Menu](./Code/IteratorPattern)|
 |[Template Pattern](./Theory/TemplatePattern.md)|[Coffee and Tea](./Code/TemplatePattern)|
+|[State Pattern](./Theory/StatePattern.md)|[Gumball Machine](./Code/StatePattern)|
 
 ---
