@@ -1,10 +1,13 @@
 #include "HasCoinState.hpp"
 #include<iostream>
+#include<time.h>
+#include<cstdlib>
 
 using namespace std;
 
 HasCoinState::HasCoinState(GumballMachine* gumballMachine) {
     this->gumballMachine = gumballMachine;
+    srand(time(0));
 }
 
 void HasCoinState::insertCoin() {
@@ -18,7 +21,13 @@ void HasCoinState::ejectCoin() {
 
 void HasCoinState::turnCrank() {
     cout << "You turned the crank ..." << endl;
-    gumballMachine->setState(gumballMachine->getSoldState());
+    int winner = rand()%10; // get a random number from 1 to 10
+    if(winner == 0) {
+        gumballMachine->setState(gumballMachine->getWinnerState());
+    }
+    else {
+        gumballMachine->setState(gumballMachine->getSoldState());
+    }
 }
 
 void HasCoinState::dispense() {

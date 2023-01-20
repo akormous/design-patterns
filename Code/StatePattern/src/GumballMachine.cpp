@@ -4,6 +4,7 @@
 #include "HasCoinState.hpp"
 #include "SoldOutState.hpp"
 #include "SoldState.hpp"
+#include "WinnerState.hpp"
 
 using namespace std;
 
@@ -13,6 +14,8 @@ GumballMachine::GumballMachine(int n) {
     this->soldOutState = new SoldOutState(this);
     this->hasCoinState = new HasCoinState(this);
     this->soldState = new SoldState(this);
+    this->winnerState = new WinnerState(this);
+
     this->curState = soldOutState;
     if(n > 0) {
         this->curState = noCoinState;
@@ -53,6 +56,9 @@ State* GumballMachine::getSoldOutState() {
 State* GumballMachine::getSoldState() {
     return soldState;
 }
+State* GumballMachine::getWinnerState() {
+    return winnerState;
+}
 
 int GumballMachine::getCount() {
     return count;
@@ -69,6 +75,9 @@ void GumballMachine::setSoldOutState(State* state) {
 }
 void GumballMachine::setSoldState(State* state) {
     this->soldState = state;
+}
+void GumballMachine::setWinnerState(State* state) {
+    this->winnerState = state;
 }
 
 void GumballMachine::setState(State* state) {

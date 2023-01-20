@@ -4,19 +4,12 @@
 using namespace std;
 
 int main() {
-    GumballMachine* myMachine = new GumballMachine(10);
+    GumballMachine* myMachine = new GumballMachine(110);
 
-    myMachine->insertCoin();
-    myMachine->insertCoin();
-
-    myMachine->ejectCoin();
-    myMachine->turnCrank();
-
-    myMachine->insertCoin();
-    myMachine->turnCrank();
-
-    myMachine->turnCrank();
-    
-    myMachine->ejectCoin();
+    for(int i = 0; i < 20; i++) {
+        myMachine->insertCoin();
+        myMachine->turnCrank();
+        cout << "-----------------------" << endl;
+    }
     return 0;
 }

@@ -9,11 +9,13 @@ set(SOURCES
     include/HasCoinState.hpp
     include/SoldOutState.hpp
     include/SoldState.hpp
+    include/WinnerState.hpp
     src/GumballMachine.cpp
     src/NoCoinState.cpp
     src/HasCoinState.cpp
     src/SoldOutState.cpp
     src/SoldState.cpp
+    src/WinnerState.cpp
     src/main.cpp
 )
 

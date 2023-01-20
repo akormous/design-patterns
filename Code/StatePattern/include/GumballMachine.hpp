@@ -16,6 +16,7 @@ public:
     State* getHasCoinState();
     State* getSoldOutState();
     State* getSoldState();
+    State* getWinnerState();
 
     int getCount();
 
@@ -24,6 +25,7 @@ public:
     void setHasCoinState(State* state);
     void setSoldOutState(State* state);
     void setSoldState(State* state);
+    void setWinnerState(State* state);
 
     void setState(State* state);
 
@@ -34,6 +36,7 @@ private:
     State* hasCoinState;
     State* soldOutState;
     State* soldState;
+    State* winnerState;
 
     State* curState;
 };
