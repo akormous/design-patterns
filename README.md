@@ -1,4 +1,4 @@
-![Design Patterns](./Theory/public/design-patterns-title.png)
+![Design Patterns](./Theory/public/design-patterns-title.gif)
 
 ---
 
