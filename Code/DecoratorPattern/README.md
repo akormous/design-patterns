@@ -4,12 +4,14 @@
 classDiagram
 
 class Beverage {
+    <<abstract>>
     +description
     +getDescription()
     +cost()
 }
 
 class CondimentDecorator {
+    <<abstract>>
     +getDescription()
 }
 
