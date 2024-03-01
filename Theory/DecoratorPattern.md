@@ -25,6 +25,7 @@ The Decorator Pattern attaches additional responsibilities to an object dynamica
 classDiagram
 
 class Component {
+    <<abstract>>
     +A()
     +B()
 }
@@ -35,6 +36,7 @@ class ConcreteComponent {
 }
 
 class Decorator {
+    <<abstract>>
     +A()
     +B()
 }
