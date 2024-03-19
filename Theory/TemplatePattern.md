@@ -13,7 +13,7 @@ What's a template? It's just a method that defines an *algorithm* as a set of st
 classDiagram
 
 class AbstractClass {
-    templateMethod() // algorithm, calls primitive ops 1 and 2
+    templateMethod() // algorithm
     
     primitiveOperation1() // to be implemented by subclass
     primitiveOperation2() // to be implemented by subclass
