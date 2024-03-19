@@ -15,9 +15,9 @@ classDiagram
 class AbstractClass {
     templateMethod() // algorithm, calls primitive ops 1 and 2
     
-    primitiveOperation1()
-    primitiveOperation2()
-    concreteOperation() // to be implemented by subclass
+    primitiveOperation1() // to be implemented by subclass
+    primitiveOperation2() // to be implemented by subclass
+    concreteOperation() 
     hook() // hook into algorithm
 }
 
@@ -30,8 +30,8 @@ AbstractClass <|-- ConcreteClass
 
 ```
 
-- **primitive operations**: methods that are common in the algorithm
-- **concrete operations**: methods that need to be modified/implemented by subclasses
+- **concrete operations**: methods that are common in the algorithm
+- **primitive operations**: methods that need to be modified/implemented by subclasses
 - **hooks**: method that gives subclasses an ability to hook into the algorithm at various points; default implementation is provided by template method (look at the code example for a clear picture of what a hook does)
 
 
