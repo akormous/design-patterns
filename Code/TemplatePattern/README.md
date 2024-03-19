@@ -7,10 +7,10 @@ classDiagram
 
 class CaffeineBeverage {
     CaffeineBeverage* prepareRecipe() // template method
-    void boilWater() // primitive
-    void pourInCup() // primitive
-    void brew() // concrete
-    void addCondiments() // concrete
+    void boilWater() // concrete
+    void pourInCup() // concrete
+    void brew() // primitive
+    void addCondiments() // primitive
     bool customerWantsCondiments() // hook; default true
 }
 
